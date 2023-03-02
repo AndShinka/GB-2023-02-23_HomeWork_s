@@ -13,8 +13,7 @@ int SumDigits(int number)
         return SumDigits(number / 10) + number % 10;
 }
 
-//Console.Clear();
-
+Console.Clear();
 Console.WriteLine();
 Console.WriteLine("Задача: Найти сумму цифр числа." !);
 int number = ReadNum("Введите число:"!);
